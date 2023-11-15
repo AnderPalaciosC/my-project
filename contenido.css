@@ -1,0 +1,209 @@
+.contenido {
+    display: flex;
+    background-color: rgb(63, 63, 70);
+    padding: 35px 0px 0px 50px;
+    box-shadow: inset 0px -40px 50px 8px rgba(0, 0, 0, 0.58);
+}
+
+.contenido > .contenido-derecha {
+    margin-left: auto;
+}
+
+.contenido > .contenido-derecha > .imagen img {
+    width: 435px;
+    height: 100%;
+    box-shadow: 0px -40px 50px 15px rgba(0, 0, 0, 0.58);
+    margin-top: 22px;
+}
+
+.contenido > .contenido-derecha > .Texto {
+    display: flex;
+    padding: 5px 10px;
+    font-weight: bolder;
+    position: absolute;
+    top: 97px;
+}
+
+.contenido > .contenido-derecha > .Texto p {
+    margin: 0%;
+    padding: 0px 0px 0px 3px;
+    color: rgb(103, 220, 255);
+}
+
+.contenido > .contenido-izquierda > .contenido-izquierda-arriba {
+    font-size: 1.9em;
+    color: rgb(197, 196, 196);
+}
+
+.contenido > .contenido-izquierda > .contenido-izquierda-arriba p {
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+    margin: 0%;
+    display: inline;
+}
+
+.contenido > .contenido-izquierda > .contenido-izquierda-medio p {
+    font-size: 1.5em;
+    color: rgb(197, 196, 196);
+    margin-bottom: 40px;
+}
+
+.contenido > .contenido-izquierda > .contenido-izquierda-abajo {
+    font-size: 1.7em;
+    display: flex;
+}
+
+.contenido > .contenido-izquierda > .contenido-izquierda-abajo > .botones {
+    display: flex;
+    gap: 13px;
+}
+
+.contenido > .contenido-izquierda > .contenido-izquierda-abajo > .botones > .Sign-Up-for-Free {
+    padding: 12px 20px;
+    background-color: rgb(108, 192, 108);
+    border-radius: 3px;
+    font-weight: bolder;
+}
+
+.contenido > .contenido-izquierda > .contenido-izquierda-abajo > .botones > .Sign-Up-for-Free a {
+    color: black;
+    margin: 0%;
+    text-decoration: none;
+}
+
+.contenido > .contenido-izquierda > .contenido-izquierda-abajo > .botones > .Sign-Up-for-Free:hover {
+    background-color: gold;
+}
+
+.contenido > .contenido-izquierda > .contenido-izquierda-abajo > .botones > .Learn-More {
+    padding: 12px 20px;
+    background-color: black;
+    border-radius: 3px;
+    margin: 0%;
+    margin-left: auto;
+}
+
+.contenido > .contenido-izquierda > .contenido-izquierda-abajo > .botones > .Learn-More a {
+    margin: 0%;
+    font-weight: bolder;
+    text-decoration: none;
+    color: white;
+}
+
+.contenido > .contenido-izquierda > .contenido-izquierda-abajo > .botones > .Learn-More:hover {
+    background-color: gold;
+}
+
+.contenido > .contenido-izquierda > .contenido-izquierda-abajo > .botones > .Learn-More a:hover {
+    color: black;
+    font-weight: bolder;
+}
+
+.abajo {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(58, 58, 58);
+    border-top: 2px solid rgb(85, 85, 85);
+    border-bottom: 2px solid rgb(85, 85, 85);
+}
+
+.abajo > .divisor {
+    width: 1.5px;
+    background-color: rgb(85, 85, 85);
+}
+
+.abajo > .Teams {
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    margin-left: 52px;
+    padding: 8px 0px;
+    cursor: pointer;
+}
+
+.abajo > .Teams:hover {
+    color: gold;
+}
+
+.abajo > .Teams p {
+    margin: 0%;
+    white-space: nowrap;
+}
+
+@font-face {
+    font-family: "mifuente";    
+    src: url("letra/telefon-black.woff") format('woff');
+}
+    
+.abajo > .Teams > .TEAMS {
+    font-family: 'mifuente';
+    font-size: 1.3em;
+    padding: 0px 0px 3px 2px;
+} 
+
+.abajo > .Education {
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+.abajo > .Education:hover {
+    color: gold;
+}
+
+.abajo > .Education p {
+    margin: 0%;
+    white-space: nowrap;
+}
+    
+.abajo > .Education > .EDUCATION {
+    font-family: 'mifuente';
+    font-size: 1.3em;
+    padding: 0px 0px 3px 2px;
+}
+
+.abajo > .Privacy {
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+.abajo > .Privacy:hover {
+    color: gold;
+}
+
+.abajo > .Privacy p {
+    margin: 0%;
+    white-space: nowrap;
+}
+    
+.abajo > .Privacy > .PRIVACY {
+    font-family: 'mifuente';
+    font-size: 1.3em;
+    padding: 0px 0px 3px 2px;
+}
+
+.abajo > .Writing {
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    margin-right: 50px;
+    cursor: pointer;
+}
+
+.abajo > .Writing:hover {
+    color: gold;
+}
+
+.abajo > .Writing p {
+    margin: 0%;
+    white-space: nowrap;
+}
+    
+.abajo > .Writing > .WRITING {
+    font-family: 'mifuente';
+    font-size: 1.3em;
+    padding: 0px 0px 3px 2px;
+}
