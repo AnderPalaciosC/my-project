@@ -1,0 +1,141 @@
+.barra-de-navegacion {
+    display: flex;
+    background-color: rgb(8, 8, 8)
+}
+
+.barra-de-navegacion > .parte-izquierda-nav img {
+    width: 143px;
+    padding: 20px 20px;
+}
+
+.barra-de-navegacion > .medio-nav {
+    margin-left: 20px;
+    text-align: left;
+    align-items: center;
+}
+
+.barra-de-navegacion > .medio-nav > .medio-arriba-nav {
+    font-size: 0.824em;
+    font-weight: bolder;
+    color: rgb(211, 197, 120);
+}
+
+.barra-de-navegacion > .medio-nav > .medio-arriba-nav p {
+    margin-top: 12px;
+    margin-bottom: 2px;
+}
+
+.barra-de-navegacion > .medio-nav > .medio-abajo-nav a {
+    text-decoration: none;
+    color: white;
+    padding: 3px 15px 10px 0px;
+}
+
+.barra-de-navegacion > .medio-nav > .medio-abajo-nav a:hover {
+    font-size: 1.2em;
+    transition: 0.5s;
+}
+
+.barra-de-navegacion > .medio-nav > .medio-abajo-nav {
+   display: flex;
+   flex-wrap: wrap;
+}
+
+.barra-de-navegacion > .medio-nav > .medio-abajo-nav > .medio-abajo-negrita-nav {
+    display: flex;
+    justify-content: space-between;
+    font-weight: bolder;
+}
+
+.barra-de-navegacion > .medio-nav > .medio-abajo-nav > .medio-abajo-negrita-nav > .Spark {
+    display: flex;
+    align-items: center;
+}
+
+.barra-de-navegacion > .medio-nav > .medio-abajo-nav > .medio-abajo-negrita-nav > .Spark a {
+    color: rgb(153, 153, 153);
+    padding: 0px 15px;
+    display: flex;
+    align-items: center;
+}
+
+.barra-de-navegacion > .medio-nav > .medio-abajo-nav > .medio-abajo-negrita-nav > .Spark i {
+    font-size: 0.8em;
+    margin-left: 4px;
+}
+
+.barra-de-navegacion > .derecha-nav {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    padding: 10px 10px 10px 10px;
+    font-weight: bolder;
+    margin-right: -8px;
+}
+
+.barra-de-navegacion > .derecha-nav a {
+    margin: 0%;
+    text-decoration: none;
+    color: white;
+}
+
+.barra-de-navegacion > .derecha-nav a:hover {
+    color: gold;
+}
+
+.barra-de-navegacion > .derecha-nav > .Log-In a:hover {
+    color: gold;
+}
+
+.barra-de-navegacion > .derecha-nav > .Sign-Up a:hover {
+    color: gold;
+}
+
+.barra-de-navegacion > .derecha-nav > .Create {
+    background-color: rgb(56, 56, 63);
+    padding: 12px 18px;
+    border-radius: 3px;
+}
+
+.barra-de-navegacion > .derecha-nav > .Create i {
+    color: rgb(105, 182, 105);
+}
+
+.barra-de-navegacion > .derecha-nav > .icono-lupa {
+    color: rgb(120, 120, 128);
+    font-size: 1.7em;
+    padding: 0px 18px;
+    cursor: pointer;
+}
+
+.barra-de-navegacion > .derecha-nav > .icono-lupa:hover {
+    font-size: 2em;
+    color: gold;
+    transition: 0.5s;
+}
+
+.barra-de-navegacion > .derecha-nav > .Log-In {
+    background-color: rgb(56, 56, 63);
+    padding: 12px 18px;
+    border-radius: 3px;
+}
+
+.barra-de-navegacion > .derecha-nav > .Log-In a {
+    margin: 0%;
+    text-decoration: none;
+    color: white;
+}
+
+.barra-de-navegacion > .derecha-nav > .Sign-Up {
+    background-color: rgb(56, 56, 63);
+    padding: 12px 18px;
+    border-radius: 3px;
+    margin-left: 11px;
+    margin-right: 0px;
+}
+
+.barra-de-navegacion > .derecha-nav > .Sign-Up a {
+    margin: 0%;
+    text-decoration: none;
+    color: white;
+}
